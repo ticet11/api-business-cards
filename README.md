@@ -10,11 +10,14 @@
 users = [];
 ```
 
-- [x]   ContactCardsContainer needs to fetch data from the following url
+- [x]  ContactCardsContainer needs to fetch data from the following url
     and update state.data with its data:
     -   https://jsonplaceholder.typicode.com/users
     -   I would recommend the lifecycle method componentDidMount()
+- [X]   ContactCard fetches data from the following url and updates state with a profilePic:
+    -   https://randomuser.me/api/   
 - [x]   ContactCard will render:
+    -   ADDITION: Profile Pic
     -   NAME
     -   Phone: users phone number
     -   Email: users email

@@ -9,6 +9,7 @@ export default class ContactCardContainer extends Component {
 
         this.state = {
             data: [],
+            contactImage: "",
         };
     }
 
