@@ -43,6 +43,6 @@ export default class ContactCardContainer extends Component {
     };
 
     render() {
-        return <div>{this.contactCards()}</div>;
+        return <div className='contact-card-container'>{this.contactCards()}</div>;
     }
 }

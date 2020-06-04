@@ -1,4 +1,12 @@
+.contact-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
 .contact-wrapper {
     margin: 10px;
     border: solid black 1px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
 }
