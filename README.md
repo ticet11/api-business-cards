@@ -14,15 +14,15 @@ users = [];
     and update state.data with its data:
     -   https://jsonplaceholder.typicode.com/users
     -   I would recommend the lifecycle method componentDidMount()
-- [ ]   ContactCard will render:
+- [x]   ContactCard will render:
     -   NAME
     -   Phone: users phone number
     -   Email: users email
     -   Company: users company name
     -   Address: users street, city, and state
-- [ ]   The info to render in ContactCard will come from
+- [x]   The info to render in ContactCard will come from
     ContactCardsContainer as props
-- [ ]   You will need to map over state in ContactCardsContainer to render
+- [x]   You will need to map over state in ContactCardsContainer to render
     ContactCards and pass the user info as props
 
 This project was bootstrapped with
